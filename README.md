@@ -1,1 +1,3 @@
+On progress...
+
 This is my simple terminal-based banking project to practice basics of oop and java
