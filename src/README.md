@@ -1,0 +1,1 @@
+This is my simple terminal-based banking project for catching basics of oop and java
