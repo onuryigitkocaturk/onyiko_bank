@@ -1,14 +1,16 @@
 public abstract class Account {
-    protected String accountNumber;
-    protected double balance;
-    protected String firstName;
-    protected String lastName;
+    private String accountNumber;
+    private double balance;
+    private String firstName;
+    private String lastName;
+    private String password;
 
-    public Account(String accountNumber, double balance, String firstName, String lastName) {
+    public Account(String accountNumber, double balance, String firstName, String lastName, String password) {
         this.accountNumber = accountNumber;
         this.balance = balance;
         this.firstName = firstName;
         this.lastName = lastName;
+        this.password = password;
     }
 
     public String getAccountNumber() {
@@ -25,6 +27,10 @@ public abstract class Account {
 
     public String getLastName() {
         return lastName;
+    }
+
+    public String getPassword(){
+        return password;
     }
 
     public void deposit(double amount) throws InvalidAmountException {

@@ -1,8 +1,8 @@
 public class CheckingAccount extends Account{
     private double overdraftLimit = 500;
 
-    public CheckingAccount(String accountNumber, double balance, String firstName, String lastName){
-        super(accountNumber,balance,firstName,lastName);
+    public CheckingAccount(String accountNumber, double balance, String firstName, String lastName, String password){
+        super(accountNumber,balance,firstName,lastName,password);
     }
 
     @Override
